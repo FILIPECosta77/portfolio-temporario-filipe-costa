@@ -84,7 +84,7 @@ export const NavLinks = (): JSX.Element => {
           aria-label="Github"
           href={`https://github.com/${userData.githubUser}`}
         >
-          <FaGithub />
+          <FaGithub color="white" />
         </Button>
       )}
 
@@ -96,7 +96,7 @@ export const NavLinks = (): JSX.Element => {
           aria-label="LinkedIn"
           href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
         >
-          <FaLinkedinIn />
+          <FaLinkedinIn color="white" />
         </Button>
       )}
     </NavbarLinks>
