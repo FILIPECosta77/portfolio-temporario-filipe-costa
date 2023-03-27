@@ -22,6 +22,18 @@ export const colors = {
       color: "$brand1",
     },
 
+    brand2: {
+      color: "$brand2",
+    },
+
+    brand3: {
+      color: "$brand3",
+    },
+
+    brand4: {
+      color: "$brand4",
+    },
+
     grey1: {
       color: "$grey1",
     },
@@ -41,8 +53,17 @@ export const colors = {
     grey5: {
       color: "$grey5",
     },
+
     grey6: {
       color: "$grey6",
+    },
+
+    whiteFixed: {
+      color: "$whiteFixed",
+    },
+
+    mode: {
+      color: "$mode",
     },
   },
 };
@@ -63,18 +84,18 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
-      brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
-      grey1: "#212529",
+      brand1: "#0B6E4F",
+      brand2: "#0b6e2c",
+      brand3: "#08A045",
+      brand4: "#000000",
+      grey1: "#383632",
       grey2: "#495057",
       grey3: "#CED3D7",
-      grey4: "#F1F3F5",
-      grey5: "#F8F9FA",
-      grey6: "#DEE0FB",
+      grey4: "#33383a",
+      grey5: "#c7c2ba",
+      grey6: "#e5eefc",
       whiteFixed: "#ffffff",
-      mode: "#ffffff",
+      mode: "#131516",
     },
     sizes: {
       container: "75rem",

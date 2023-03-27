@@ -24,14 +24,13 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
       <Header>
         <Container>
           <HeaderContent>
-            <Text as="h1" type="heading1" color="grey5">
+            <Text as="h1" type="heading1" color="whiteFixed">
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
@@ -40,10 +39,15 @@ export const Home = (): JSX.Element => {
               desenvolvendo habilidades
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
+              <Button as="a" href="#projetos" color="whiteFixed">
                 Projetos
               </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+              <Button
+                as="a"
+                href="#tecnologias"
+                type="btLink"
+                color="whiteFixed"
+              >
                 Tecnologias
               </Button>
             </HeaderButtonsArea>
@@ -66,10 +70,10 @@ export const Home = (): JSX.Element => {
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
-              <Text as="h2" type="heading4" color="grey1">
+              <Text as="h2" type="heading4" color="grey6">
                 Vamos trocar uma ideia?
               </Text>
-              <Text as="p" type="body1" color="grey2">
+              <Text as="p" type="body1" color="grey3">
                 No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposto a trocar
                 algumas ideias por lá
@@ -84,12 +88,12 @@ export const Home = (): JSX.Element => {
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
+              <Text type="body1" color="grey6" css={{ marginBottom: "$2" }}>
                 Projetos
               </Text>
-              <Text as="h3" type="heading2" color="grey1">
+              <Text as="h3" type="heading2" color="grey3">
                 Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
+                <Text as="span" color="brand3" type="heading2">
                   dedicação
                 </Text>{" "}
                 em cada detalhe
